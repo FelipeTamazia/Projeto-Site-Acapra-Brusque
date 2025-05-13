@@ -110,4 +110,9 @@ footer {
     margin-left: 40px;
     border-radius: 20px;
     display: inline-block;
+    transition: ease-in-out 0.5s;
+}
+
+.cachorrosado img:hover{
+    transform: scale(1.10);
 }
