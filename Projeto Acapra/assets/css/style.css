@@ -102,3 +102,13 @@ footer {
 .redes-sociais img {
     width: 25px;
 }
+
+.cachorrosado img{
+    width: 250px;
+    height: 280px;
+    margin: 10px;
+    border: 10px solid rgb(199, 198, 198);
+    border-bottom: 60px solid rgb(199, 198, 198);
+    border-radius: 20px;
+    display: inline-block;
+}
