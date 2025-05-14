@@ -102,3 +102,17 @@ footer {
 .redes-sociais img {
     width: 25px;
 }
+.Como-adotar {
+    display: inline-block;
+    text-align:center;
+    justify-content:space-evenly;
+    padding: 40px 20px;
+    background-color: #e3d4ff;
+}
+
+.Como-adotar img {
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 14px 18px rgb(34, 13, 39);
+}
