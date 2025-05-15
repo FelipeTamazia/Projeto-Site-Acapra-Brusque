@@ -46,6 +46,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
     padding: 15px;
     background-color: #BBB2E0;
 }
@@ -146,23 +147,28 @@ footer {
 .imagem-noticia1 {
     width: 300px;
     margin-left: 120px;
+    margin-bottom: 10px;
     text-align: center;
-    border-radius: 10px;
+    border-radius:0px;
     opacity: 20%;
+    filter: brightness(0.6);
+    
 
 }
 .imagem-noticia2 {
     width: 300px;
+    margin-bottom: 10px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 19px 24px rgb(34, 13, 39);
-
 
 }
 .imagem-noticia3 {
     width: 300px;
     text-align: center;
-    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px;
     opacity: 20%;
+    filter: brightness(0.6);
 
 }
