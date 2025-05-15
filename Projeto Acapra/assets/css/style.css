@@ -98,7 +98,7 @@ footer {
     color: rgb(248, 223, 192);
     text-decoration: underline;
 }
-  
+
 .redes-sociais img {
     width: 25px;
 }
@@ -115,4 +115,54 @@ footer {
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0 14px 18px rgb(34, 13, 39);
+}
+
+.noticia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.Texto-noticia {
+    text-align: left;
+    text-indent: 30px;
+    width: 80%;
+    margin-left: 70px;
+    vertical-align: auto;
+    color: black;
+}
+.noticia-h2 {
+    color: purple;
+    font-size: 40px;;
+    text-align: left;
+    vertical-align:top;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+.imagem-noticia1 {
+    width: 300px;
+    margin-left: 120px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 20%;
+
+}
+.imagem-noticia2 {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 19px 24px rgb(34, 13, 39);
+
+
+}
+.imagem-noticia3 {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 20%;
+
 }
