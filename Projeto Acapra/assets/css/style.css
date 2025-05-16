@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
 }
+
 main {
     background-color: #e3d4ff;
 }
+
 header {
     display: flex;
     align-items: center;
     padding: 15px;
     background-color: #BBB2E0;
 }
-    
+
 .navegacao-header {
     display: flex;
     justify-content: space-evenly;
@@ -31,7 +33,7 @@ header {
 }
 
 .logo {
-     width: 100px;
+    width: 100px;
 }
 
 .concientizacao {
@@ -105,7 +107,7 @@ footer {
     width: 25px;
 }
 
-.card-adocao img{
+.card-adocao img {
     width: 250px;
     height: 280px;
     margin-top: 20px;
@@ -123,7 +125,7 @@ footer {
     position: relative;
 }
 
-.container-adocao h2{
+.container-adocao h2 {
     text-align: center;
     font-size: 30px;
     color: #4B0082;
@@ -131,7 +133,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.card-adocao p{
+.card-adocao p {
     text-align: center;
     font-size: 20px;
     color: #4B0082;
@@ -141,21 +143,22 @@ footer {
 
 }
 
-.card-adocao img:hover{
+.card-adocao img:hover {
     transform: scale(1.10);
 }
 
-.card-banner img{
+.card-banner img {
     width: 90%;
     height: 400px;
     display: flex;
     margin-left: 50px;
     border-radius: 30px;
 }
+
 .Como-adotar {
     display: inline-block;
-    text-align:center;
-    justify-content:space-evenly;
+    text-align: center;
+    justify-content: space-evenly;
     padding: 40px 20px;
     background-color: #e3d4ff;
 }
@@ -184,11 +187,13 @@ footer {
     vertical-align: auto;
     color: black;
 }
+
 .noticia-h2 {
     color: purple;
-    font-size: 40px;;
+    font-size: 40px;
+    ;
     text-align: left;
-    vertical-align:top;
+    vertical-align: top;
     text-indent: 50px;
     line-height: 1.5;
 }
@@ -199,12 +204,13 @@ footer {
     margin-top: 15px;
     margin-bottom: 10px;
     text-align: center;
-    border-radius:0px;
+    border-radius: 0px;
     opacity: 30%;
     filter: brightness(0.4);
-    
+
 
 }
+
 .imagem-noticia2 {
     width: 300px;
     margin-bottom: 10px;
@@ -214,6 +220,7 @@ footer {
     box-shadow: 0 19px 24px rgb(34, 13, 39);
 
 }
+
 .imagem-noticia3 {
     width: 300px;
     text-align: center;
@@ -225,66 +232,169 @@ footer {
 }
 
 .sobre-conteudo {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .sobre-conteudo p {
-  flex: 1;
-  font-size: 20px;
-  line-height: 1.6;
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
 .sobre-conteudo img {
-  width: 100%;
-  max-width: 350px;
-  border-radius: 15px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
 }
 
-.sobre, .missao, .historia {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 40px 0;
+.sobre,
+.missao,
+.historia {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 0;
 }
 
 
 .missao-conteudo {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .missao-conteudo img {
-  width: 100%;
-  max-width: 450px;
-  border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
 }
 
 .missao-conteudo p {
-  flex: 1;
-  font-size: 20px;
-  line-height: 1.6;
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
-.sobre, .missao, .historia {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 40px 0;
+.sobre,
+.missao,
+.historia {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 0;
 }
 
 .historia p {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .denuncia p {
-font-size: 20px;
+    font-size: 20px;
 
 }
 
 .ajudar p {
     font-size: 20px;
+
+}
+
+.titulo-pet {
+    background-color: #a694c7;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.caes {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    background-color: #c3b3db;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.imagem-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+
+}
+
+.imagem-container img {
+    width: 40%;
+    height: 50%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.info-container {
+    background-color: #f0f0f5;
+    border-radius: 12px;
+    padding: 16px 20px;
+    max-width: 540px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.botao-pet {
+    background-color: #a67c7c;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 6px 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.botao-pet:hover {
+    background-color: #925f5f;
+}
+
+.botoes-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.corpo-da-pagina {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-container p {
+
+    padding: 20px;
+    min-height: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+
 
 }
