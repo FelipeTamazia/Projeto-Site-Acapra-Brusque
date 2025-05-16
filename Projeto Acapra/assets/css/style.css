@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+main {
+    background-color: #e3d4ff;
+}
 header {
     display: flex;
     align-items: center;
@@ -46,7 +48,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
     padding: 15px;
     background-color: #BBB2E0;
 }
