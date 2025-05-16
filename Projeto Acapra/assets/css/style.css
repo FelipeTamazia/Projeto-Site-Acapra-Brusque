@@ -209,7 +209,69 @@ footer {
     border-radius: 0px;
     opacity: 30%;
     filter: brightness(0.4);
-    
-    
+}
+
+.sobre-conteudo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sobre-conteudo p {
+  flex: 1;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.sobre-conteudo img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+}
+
+.sobre, .missao, .historia {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px 0;
+}
+
+
+.missao-conteudo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.missao-conteudo img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+}
+
+.missao-conteudo p {
+  flex: 1;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.sobre, .missao, .historia {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px 0;
+}
+
+.historia p {
+  font-size: 20px;
+}
+
+.denuncia p {
+font-size: 20px;
+
+}
+
+.ajudar p {
+    font-size: 20px;
 
 }
