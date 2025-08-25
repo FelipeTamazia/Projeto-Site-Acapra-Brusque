@@ -7,6 +7,7 @@ main {
     background-color: #e3d4ff;
 }
 
+/* Estilos para o cabeçalho */
 header {
     display: flex;
     align-items: center;
@@ -36,15 +37,14 @@ header {
     width: 100px;
 }
 
-.concientizacao {
-    padding-right: 50px;
-}
-
+/* Estilos para o banner tela inicial */
 .banner img {
     width: 100%;
     border-radius: 30px;
     padding: 25px 0 25px 0;
 }
+
+/* Estilo para o rodapé */
 
 footer {
     display: flex;
@@ -107,6 +107,8 @@ footer {
     width: 25px;
 }
 
+/* Estilos para a seção de gatos-adotados, caes-adotados, adocao-gatos e adocao-cachorros */    
+
 .card-adocao img {
     width: 250px;
     height: 280px;
@@ -141,12 +143,13 @@ footer {
     margin-top: 5px;
     margin-bottom: 10px;
     padding-left: 20px;
-
 }
 
 .card-adocao img:hover {
     transform: scale(1.10);
 }
+
+/*seção de card-banner para gatos-adotados e caes-adotados */
 
 .card-banner img {
     width: 90%;
@@ -155,6 +158,8 @@ footer {
     margin-left: 50px;
     border-radius: 30px;
 }
+
+/* Seção como-adotar*/
 
 .Como-adotar {
     display: inline-block;
@@ -170,6 +175,9 @@ footer {
     border-radius: 20px;
     box-shadow: 0 14px 18px rgb(34, 13, 39);
 }
+
+/* Seção noticia*/
+
 
 .noticia {
     display: flex;
@@ -208,8 +216,6 @@ footer {
     border-radius: 0px;
     opacity: 30%;
     filter: brightness(0.4);
-
-
 }
 
 .imagem-noticia2 {
@@ -219,7 +225,6 @@ footer {
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 19px 24px rgb(34, 13, 39);
-
 }
 
 .imagem-noticia3 {
@@ -231,6 +236,9 @@ footer {
     opacity: 30%;
     filter: brightness(0.4);
 }
+
+/* Seção quem-somos*/
+
 
 .sobre-conteudo {
     display: flex;
@@ -283,15 +291,22 @@ footer {
     font-size: 20px;
 }
 
+/* Seção denuncia*/
+
+
 .denuncia p {
     font-size: 20px;
-
 }
+
+/* Seção como ajudar*/
+
 
 .ajudar p {
     font-size: 20px;
-
 }
+
+/* Seção maia-adotada, difusor-adotado e adocao-branca*/
+
 
 .titulo-pet {
     background-color: #a694c7;
@@ -306,6 +321,8 @@ footer {
     margin-top: 12px;
 }
 
+/* Seção index*/
+
 .pets img {
     width: 100%;
     max-width: 250px;
@@ -315,12 +332,8 @@ footer {
     margin: 40px;
 }
 
-.caes {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-}
+/* Seção maia-adotada, difusor-adotado e adocao-branca*/
+
 
 .imagem-container p {
     background-color: #c3b3db;
@@ -334,7 +347,6 @@ footer {
     display: flex;
     gap: 8px;
     margin-bottom: 20px;
-
 }
 
 .imagem-container img {
@@ -345,6 +357,7 @@ footer {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
+/* Seção difusor-adotado e adocao-branca*/
 
 .info-container {
     background-color: #f0f0f5;
@@ -357,6 +370,8 @@ footer {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
 }
+
+/* Seção adocao-branca*/
 
 .botao-pet {
     background-color: #a67c7c;
@@ -383,13 +398,6 @@ footer {
     gap: 10px;
 }
 
-.corpo-da-pagina {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-}
-
 .imagem-container p {
 
     padding: 20px;
@@ -397,6 +405,5 @@ footer {
     border-radius: 10px;
     font-size: 18px;
     text-align: center;
-
 
 }
