@@ -241,6 +241,8 @@ footer {
 .container-adocao {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 13px;
 }
 
 .nome{
@@ -266,12 +268,19 @@ footer {
     text-align: center;
     font-size: 15px;
     color: white;
-    background-color: grey;
+    margin: 5px 5px 5px 5px
 }
 
 .card-adocao:hover {
     transform: scale(1.10);
     transition: ease-in-out 0.3s;
+}
+
+.filtro-adocao a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
 }
 
 /*seção de card-banner para gatos-adotados e caes-adotados */
