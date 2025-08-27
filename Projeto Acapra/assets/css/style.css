@@ -50,6 +50,120 @@ header {
     padding: 25px 0 25px 0;
 }
 
+#categoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 150%;
+    color: #8437ff;
+    margin-top: 10px;
+}
+
+.container-inicial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-inicial img {
+    width: 250px;
+    height: 250px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.card-inicial {
+    border-radius: 20px;
+    border: #BBB2E0 solid 5px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: antiquewhite;
+}
+
+.card-inicial a {
+    text-decoration: none;
+}
+
+.card-inicial p {
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.card-inicial:hover {
+    transform: scale(1.10);
+    transition: ease-in-out 0.3s;
+}
+
+.sobre-nos h2 {
+    color: #6300aa;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.sobre-nos p {
+    text-align: center;
+    margin: 15px 50px 15px 50px;
+    font-size: larger;
+}
+
+.titulo-estamos h2 {
+    color: #6300aa;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.titulo-estamos p {
+    text-align: center;
+    margin: 15px;
+    font-size: larger;
+}
+
+#stats {
+    width: 100%;
+    filter: brightness(75%);
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+}
+
+.numeros span {
+    color: #6300aa;
+    font-size: 250%;
+}
+
+.numeros {
+    color: white;
+    font-size: larger;
+    position: relative;
+    bottom: 250px;
+}
+
+.secao-adotados img {
+    width: 100%;
+    filter: brightness(75%);
+}
+
+.secao-adotados a {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+    bottom: 300px;
+    text-decoration: none;
+    font-size: 500%;
+}
+
 /* Estilo para o rodapé */
 
 footer {
@@ -118,57 +232,46 @@ footer {
 .card-adocao img {
     width: 250px;
     height: 280px;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-bottom: 20px;
     border-radius: 20px;
     border: #BBB2E0 solid 5px;
-    transition: ease-in-out 0.5s;
     cursor: pointer;
     position: relative;
 }
 
 .container-adocao {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-}
-
-.container-adocao h2 {
-    text-align: center;
-    font-size: 30px;
-    color: #4B0082;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .nome{
     position: relative;
-    bottom: 25%;
+    bottom: 19%;
 }
 
 .descricao{
     position:relative;
-    bottom: 20%;
+    bottom: 19%;
 }
 
+.card-adocao {
+    margin-top: 50px;
+}
 
+.card-adocao a {
+    text-decoration: none;
+}
 
 .card-adocao p {
+    width: 260px;
     text-align: center;
     font-size: 15px;
     color: white;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding-left: 20px;
+    background-color: grey;
 }
 
 .card-adocao:hover {
     transform: scale(1.10);
-}
-
-.card-adocao img:hover {
-    transform: scale(1.10);
+    transition: ease-in-out 0.3s;
 }
 
 /*seção de card-banner para gatos-adotados e caes-adotados */
